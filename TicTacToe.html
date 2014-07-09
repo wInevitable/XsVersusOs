@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>X's Versus O's</title>
+
+  <script src="_.js"></script>
+  <script src="jquery.js"></script>
+  <script src="tictactoe.js"></script>
+  <script src="ttt_ui.js"></script>
+
+  <style>
+
+  /* --- RESET --- */
+
+  html, body, header, h1, h4, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  body {
+    font-family: sans-serif;
+    background: #fff;
+    color: #aaa;
+    font-size: 120px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  /* --- CONTENT --- */
+
+  header {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    display: block;
+    margin: auto;
+    width: 400px;
+    font-size: 48px;
+    font-style: bold;
+    padding: 20px;
+  }
+
+  h4 {
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    font-size: 24px;
+    font-style: italic;
+    border-top: 2px solid #aaa;
+  }
+
+  ul {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 600px;
+    background: #709DC4; /* Carolina Blue! */
+    border: 5px solid #000;
+  }
+
+  li {
+    display: block;
+    float: left;
+    list-style: none;
+    width: 180px;
+    height: 180px;
+    background: #aaa;
+    border: 10px solid #000;
+  }
+
+  li:hover {
+    background: transparent;
+  }
+
+  .group:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .x {
+    background: #709DC4;
+  }
+
+  .o {
+    background: red;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>X's Versus O's</h1>
+    <h4>A Game of Tic Tac Toe</h4>
+  </header>
+
+  <ul class="grid group">
+
+    <li></li>
+    <li></li>
+    <li></li>
+
+    <li></li>
+    <li></li>
+    <li></li>
+
+    <li></li>
+    <li></li>
+    <li></li>
+
+  </ul>
+  <script>
+
+  </script>
+</body>
+</html>
