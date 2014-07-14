@@ -1,10 +1,15 @@
 XsVerseOs-AGameOfTicTacToe
 ==========================
 
-A simple JavaScript implementation of Tic Tac Toe.
+Download the repository and run *TicTacToe.html* in your browser. Don't forget to invite a friend!
 
-Download the repository and run TicTacToe.html in your browser.
+Simply click on the square to place your mark. Players alternate turns. Game automatically resets when a victory or draw condition is achieved.
 
-Don't forget to invite a friend!
+A simple JavaScript implementation of the timeless game, Tic Tac Toe. Utilizes the ever popular jQuery and Underscore libraries.
 
-Utilizes the ever popular jQuery and Underscore libraries.
+TODO
+=========
+
+- Add ability for players to enter their names and choose their marks
+- Create AI functionality
+- Install a scoreboard to track wins per player name
